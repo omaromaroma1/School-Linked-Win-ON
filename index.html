@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>School Links</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+ 
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f0f4ff;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+ 
+    .container {
+      background: white;
+      border-radius: 20px;
+      padding: 50px 60px;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+      text-align: center;
+      min-width: 320px;
+    }
+ 
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 35px;
+      color: #1a1a2e;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      font-family: 'Courier New', monospace;
+    }
+ 
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+ 
+    a {
+      display: block;
+      padding: 14px 30px;
+      border-radius: 12px;
+      font-size: 1.1rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+ 
+    a:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+    }
+ 
+    .mcgrawhill { background: #e8f0fe; color: #1a56db; }
+    .khan      { background: #fef3e2; color: #c05621; }
+    .classroom { background: #e6fffa; color: #0d9488; }
+    .alma      { background: #fce8f3; color: #9d174d; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>School Links</h1>
+    <div class="links">
+      <a class="mcgrawhill" href="https://my.mheducation.com/login" target="_blank">McGrawHill</a>
+      <a class="khan" href="https://www.khanacademy.org/profile/me/classroom/ce0ca203-5a26-4bcf-8287-8304cbc765e7" target="_blank">Khan Academy</a>
+      <a class="classroom" href="https://classroom.google.com/u/3/h" target="_blank">Classroom</a>
+      <a class="alma" href="https://gaaq.getalma.com/home" target="_blank">Alma</a>
+    </div>
+  </div>
+</body>
+</html>
